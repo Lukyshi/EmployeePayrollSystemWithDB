@@ -26,23 +26,23 @@ The system manages employees and their payroll information with full CRUD functi
 
 ---
 
-## 📂 Project Structure
+📂 Project Structure
 
 EmployeePayrollSystemWithDB/
- ├─ src/
- │   ├─ app/
- │   │   └─ payRoll.java           # Payroll logic
- │   ├─ dao/
- │   │   └─ EmployeeDAO.java       # Handles DB operations for employees
- │   ├─ model/
- │   │   └─ EmployeeInfo.java      # Employee entity/model
- │   ├─ util/
- │   │   └─ DBConnection.java      # Database connection helper
- │   └─ Main.java                  # Entry point with menu system
- ├─ db/
- │   └─ mysql-connector-j-9.4.0.jar # JDBC driver
- ├─ .gitignore
- └─ README.md
+├─ src/
+│ ├─ app/
+│ │ └─ payRoll.java # Payroll logic
+│ ├─ dao/
+│ │ └─ EmployeeDAO.java # Handles DB operations for employees
+│ ├─ model/
+│ │ └─ EmployeeInfo.java # Employee entity/model
+│ ├─ util/
+│ │ └─ DBConnection.java # Database connection helper
+│ └─ Main.java # Entry point with menu system
+├─ db/
+│ └─ mysql-connector-j-9.4.0.jar # JDBC driver
+├─ .gitignore
+└─ README.md
 
 
 
